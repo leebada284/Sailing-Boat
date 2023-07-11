@@ -1,6 +1,5 @@
 # Sailing-Boat
 
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -108,6 +107,3 @@ main{
         <p>바람</p>
     </div>
 <main>
-
-</body>
-</html>
