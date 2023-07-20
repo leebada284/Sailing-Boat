@@ -11,7 +11,7 @@
 
 main{
    background-color: #c5d3f8;
-   margin: 0 auto;
+   margin: 0 auto; 
    border-bottom: 1px dotted #080007;
    padding: 0 0 0 0; 
    width: 1050px;
@@ -25,22 +25,13 @@ main.second-main {
     height: 250px;
 }
 
-main.first-main p {
-    text-align: center;
-    margin-top: 0px; 
-}
-main.second-main p {
-    text-align: center;
-    margin-top: 0px; 
-}
-
 #box1 {
     background-color: #ffffff;
-    width: 720px;
-    height: 450px;
+    width: 495px;
+    height: 400px;
     border: 2px dotted #000000;
     float: left;
-    margin : 20px 18px 15px 18px;
+    margin : 20px 17px 15px 17px;
    position : relative
 }
 
@@ -53,11 +44,11 @@ main.second-main p {
 
 #box2{
    background-color: #ffffff;
-   width: 700px;
-   height: 450px;
+   width: 495px;
+   height: 400px;
     border: 2px dotted #000000;
    float: right;
-   margin : 20px 18px 15px 0px; /* top right bottom left 순 */
+   margin : 20px 17px 15px 0px; /* top right bottom left 순 */
    position : relative
 }
 
@@ -69,20 +60,20 @@ main.second-main p {
 }
 
 .map-image {
-    width: 400px;
+    width: 350px;
     height: auto;
    position: absolute;
-   left : 170px;
+   left : 80px;
    bottom : 10px
 }
 
 #box3{
    background-color: #ffffff;
-   width: 472px;
-   height: 150px;
+   width: 323px;
+   height: 200px;
     border: 2px dotted #000000;
    float: left;
-    margin: 15px 18px 15px 18px; /* top right bottom left 순 */
+    margin: 20px 17px 20px 17px; /* top right bottom left 순 */
    position : relative
 }
 
@@ -94,7 +85,7 @@ main.second-main p {
 } -->
 
 #unit {
-   margin: 60px 130px 0px 100px;
+   margin: 80px 150px 0px 30;
    font-size: 40px;
    color: #000000;
 }
@@ -104,22 +95,22 @@ main.second-main p {
     color: #000000;
     border: 1px solid #efa0f5;
     padding: 5px 10px;
-    font-size: 8px;
+    font-size: 10px;
     cursor: pointer;
     border-radius: 10px;
    position: absolute;
    right : 20px;
-   bottom : 55px
+   bottom : 80px
 }
 
 
 #box4{
    background-color: #ffffff;
-   width: 472px;
-   height: 150px;
+   width: 323px;
+   height: 200px;
     border: 2px dotted #000000;
    float: left;
-    margin: 15px 18px 15px 0px;
+    margin: 20px 17px 20px 0px;
    position : relative
 }
 
@@ -132,11 +123,11 @@ main.second-main p {
 
 #box5{
    background-color: #ffffff;
-   width: 472px;
-   height: 150px;
+   width: 323px;
+   height: 200px;
     border: 2px dotted #000000;
    float: right;
-    margin: 15px 18px 15px 0px;
+    margin: 20px 17px 20px 0px;
    position : relative
 }
 
@@ -148,7 +139,7 @@ main.second-main p {
 }
 
 .wind-image {
-    width: 50px;
+    width: 80px;
     height: auto;
    position: absolute;
    right : 20px;
@@ -161,12 +152,7 @@ main.second-main p {
 </head>
 <body>
 
-<!-- <header>
-   <p>sailing boat</p>   
-</header> -->
-
-<main class="first-main"> <!-- Add the class to specify the first main section -->
-    <p>main 영역</p>
+<main class="first-main">
 
     <div id="box1">
         <p>카메라</p>
@@ -178,9 +164,7 @@ main.second-main p {
     </div>
 </main>
 
-<main class="second-main"> <!-- Add the class to specify the second main section -->
-    <p>두 번째 main 영역</p>
-
+<main class="second-main">
    <div id="box3">
         <p id="speed">속도</p>
       <p id="unit">m/s</p>
