@@ -11,10 +11,10 @@
 
 main{
    background-color: #c5d3f8;
-   margin: 0 10px 0 0;
+   margin: 0 30px 0 0;
    border-bottom: 1px dotted #080007;
    padding: 0 0 0 0; 
-   width: 1100px;
+   width: 1000px;
 }
 
 main.first-main {
