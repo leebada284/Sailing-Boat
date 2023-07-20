@@ -11,7 +11,7 @@
 
 main{
    background-color: #c5d3f8;
-   margin: 0 auto;
+   margin: 150 auto;
    border-bottom: 1px dotted #080007;
    padding: 0 0 0 0; 
    width: 1050px;
