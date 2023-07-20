@@ -14,16 +14,15 @@ main{
    margin: 0 auto; 
    border-bottom: 1px dotted #080007;
    padding: 20px 0 20px 0; 
-   width: 1500px;
-   height: 600px;
+   width: 1000px;
 }
 
 main.first-main {
-    height: 500px;
+    height: 400px;
 }
 
 main.second-main {
-    height: 200px;
+    height: 300px;
 }
 
 main.first-main p {
