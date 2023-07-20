@@ -14,7 +14,7 @@ main{
    margin: 0 30px 0 0;
    border-bottom: 1px dotted #080007;
    padding: 0 0 0 0; 
-   width: 1000px;
+   width: 1100px;
 }
 
 main.first-main {
