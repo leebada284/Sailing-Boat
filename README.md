@@ -13,7 +13,7 @@ main{
    background-color: #c5d3f8;
    margin: 0 auto; 
    border-bottom: 1px dotted #080007;
-   padding: 20px 0 20px 0; 
+   padding: 0 0 0 0; 
    width: 1100px;
 }
 
