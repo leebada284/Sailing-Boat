@@ -85,8 +85,8 @@ main.second-main {
 } -->
 
 #unit {
-   margin: 100px 150px 0px 30;
-   font-size: 20px;
+   margin: 0px 150px 0px 30;
+   font-size: 30px;
    color: #000000;
 }
 
