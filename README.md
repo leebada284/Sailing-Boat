@@ -176,10 +176,10 @@ main.second-main {
         const speedParagraph = document.getElementById('unit');
 
         changeTextButton.addEventListener('click', function () {
-            if (speedParagraph.textContent === 'm/s') {
-                speedParagraph.textContent = 'km/h';
+            if (speedParagraph.textContent === 'km/h') {
+                speedParagraph.textContent = 'knot(kn)';
             } else {
-                speedParagraph.textContent = 'm/s';
+                speedParagraph.textContent = 'km/h';
             }
         });
     </script>
