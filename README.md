@@ -167,7 +167,7 @@ main.second-main {
 <main class="second-main">
    <div id="box3">
         <p id="speed">속도</p>
-      <p id="unit">m/s</p>
+      <p id="unit">km/h</p>
         <button id="changeTextButton" class="custom-button">Change</button>
     </div>
 
